@@ -2,10 +2,10 @@
 ///////brandtab///////////
 
 $(document).ready(function() {
-   $('.taballitem a').click(function(){
+   $('.brands-tab ul li a').click(function(){
    
       $('.panel').hide();
-      $('.taballitem a.active').removeClass('active');
+      $('.brand-list li a.active').removeClass('active');
       $(this).addClass('active');
       
       var panel = $(this).attr('href');
@@ -13,7 +13,7 @@ $(document).ready(function() {
       
       return false;   
      
-   });  
+   });   
       $('.tabs li:first a').click();
  });  
 //////////////////////fileuplod/////////////

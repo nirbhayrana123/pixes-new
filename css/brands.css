@@ -180,6 +180,9 @@
     line-height: 18px;
     color: #F5F5F5;
 }
+.fontfamley-add {
+    text-align: center;
+}
 .nextrightbut {
     text-align: right;
 }
@@ -200,6 +203,7 @@
     height: 200px;
     background-repeat: no-repeat;
     position: relative;
+    border-radius: 10px 10px 0px 0px;
 }
 .img-persenteg img {
     position: absolute;
@@ -288,12 +292,20 @@
     display: flex;
     justify-content: space-between;
 }
+.brands-tab ul li a.active {
+    color: #fff;
+    background-color: transparent;
+    border-bottom: 4px solid #3E69FA;
+    border-radius: 0;
+    border-radius: 5px 5px 0px 0px;
+}
 
 .video-img {
     background-image: url(../images/img3.png);
     width: 50%;
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 0px 10px 10px 0px;
 }
 .video-content {
     width: 50%;

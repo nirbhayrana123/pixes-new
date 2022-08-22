@@ -1,0 +1,120 @@
+@media only screen and (max-width: 1499px) {
+
+
+
+    .brands h3 { 
+        font-size: 28px; 
+    }
+    
+    .brands-tab ul li a { 
+        font-size: 14px; 
+    }
+    .add-brand h4 { 
+        font-size: 20px; 
+    }
+
+    .selectBox select.form-control { 
+        font-size: 12px; 
+    }
+
+    .add-brand p.add-your { 
+        font-size: 14px; 
+    }
+    .uplode { 
+        width: 350px;
+        height: 150px; 
+    }
+    .imagediv .showonhover { 
+        padding: 10px; 
+    }
+    .uplode img {
+        width: 40px;
+    }
+    .brands-aplod label.text { 
+        font-size: 14px; 
+    }
+    .imagediv span.textulod { 
+        font-size: 14px; 
+    }
+    .baseColor p { 
+        font-size: 14px; 
+    }
+    .fontfamley-add p { 
+        font-size: 14px; 
+    }
+    .colopickicon {
+        padding: 10px; 
+    }
+    .nextrightbut { 
+        margin-top: 20px;
+        margin-bottom: 35px;
+    }
+    .nextrightbut a.nextbut { 
+        padding: 12px 28px; 
+    }
+    .persenteg-content a.perseteg-but { 
+        font-size: 13px; 
+        padding: 15px 45px; 
+        top: -22px;
+    }
+    .persenteg-content span.onebored { 
+        width: 170px; 
+        height: 8px;  
+    }
+    .persenteg-content span.towbored { 
+        width: 130px;
+        height: 8px; 
+    }
+    .persenteg-off {
+        width: 210px;
+        height: 300px;
+    }
+    .video-brand { 
+        width: 370px;
+        height: 300px;
+    }
+    .yourbrand-theme {
+        height: 195px;
+        width: 210px;
+    }
+    .look-like p { 
+        font-size: 12px; 
+    }
+    .look-like img {
+        width: 30px;
+        margin-bottom: 28px;
+    }
+    .video-content span.border1 { 
+        width: 130px; 
+        height: 8px;
+    }
+    .video-content span.border2 { 
+        width: 100px;
+        height: 8px; 
+    }
+    .video-img {  
+        background-position: center left; 
+        background-size: cover;
+    }
+    .really-quote p { 
+        font-size: 14px; 
+    }
+    .really-quote {
+        width: 210px;
+        height: 300px;
+        padding: 50px 17px 10px;
+    }
+    .video-content img {
+        width: 35px; 
+    }
+    .brands-aplod label.text span {
+        width: 25px;
+        height: 25px; 
+    }
+    .add-brand {
+        padding-top: 20px;
+        padding-bottom: 1px;
+    }
+    
+    
+}
