@@ -870,7 +870,11 @@ main{
     height: 100%;
 }
 .content-right-container {
-    padding: 100px 30px 30px 120px;
+    padding-left: 130px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    min-height: 100vh;
+    padding-right: 20px;
 }
 ul.monus {
     padding-top: 100px;

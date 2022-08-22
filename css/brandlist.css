@@ -83,7 +83,7 @@ a.invitepeaople {
     mix-blend-mode: normal;
 }
 .listitem {
-    max-width: 26%;
+    max-width: 28%;
     padding: 25px;
     border-radius: 10px;
     width: 100%;
@@ -152,15 +152,16 @@ color: #F5F5F5;
 .midlesec {
     min-height: 205px;
 }
-.fontsselection {
-    padding: 17px 0px;
-}
+ 
 .colorsp {
     background: #466BF2;
     border-radius: 10px 10px 0px 0px;
     width: 100%;
     height: 150px;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .colorspinners {
     display: flex;
@@ -176,10 +177,87 @@ color: #F5F5F5;
     display: flex;
     justify-content: space-between;
     position: absolute;
-    bottom: 0;
+    bottom: -21px;
     left: 0;
     right: 0;
 
+}
+.titlehead {
+    padding-bottom: 8px;
+}
+.colorsp h3 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 55px;
+    color: #273D8B;
+}
+@media only screen and (max-width: 1499px) {
+    .titlecontent h3 { 
+        font-size: 26px; 
+    }
+    .listHeadercontainer { 
+        padding: 20px 25px;
+    }
+    .invitepeaople i { 
+        width: 40px;
+        height: 40px; 
+        border-radius: 36px; 
+        line-height: 40px; 
+    }
+    a.invitepeaople h3 { 
+        font-size: 15px; 
+    }
+    .titlecontent h3 i {
+        color: #000;
+        font-size: 16px;
+        margin-left: 10px;
+        position: relative;
+        top: -7px;
+    }
+    .titlehead h3 {
+        font-size: 17px;
+        line-height: 1;
+    }
+    .logoslist img {
+        max-width: 90px;
+        max-height: 90px;
+    }
+    .midlesec {
+        min-height: 136px;
+        padding: 14px 0;
+    }
+    a.addlogo {
+        width: 110px;
+        height: 80px; 
+        font-size: 25px; 
+    }
+    .colorsp { 
+        height: 115px; 
+    }
+    .colorsp h3 { 
+        font-size: 35px;
+        line-height: 30px; 
+    }
+    .listitem { 
+        padding: 15px; 
+    }
+    .titlehead {
+        padding-bottom: 0px;
+    }
+    .colorspinners>span { 
+        height: 15px;
+    }
+    .colorspinners { 
+        bottom: -15px; 
+    }
+    .fontsselection h3 { 
+        font-size: 30px; 
+    }
+    .midlesec { 
+        margin-bottom: 15px;
+    }
 }
 
 
