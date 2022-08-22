@@ -1,0 +1,139 @@
+
+.brands-tab {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+    border-bottom: 0.5px solid #425367;
+}
+.brands-tab ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.brands h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 35px;
+    color: #F5F5F5;
+    mix-blend-mode: normal;
+}
+.main-brands {
+    padding-right: 35px;
+}
+.brand-slect {
+    display: flex;
+    align-items: center;
+}
+.selectBox select.form-control {
+    background-color: transparent;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #B2B7BD;
+    outline: none;
+    box-sizing: border-box;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance: window;
+    background-image: url(../images/arrowselect.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.brand-slect .selectBox:first-child {
+    margin-right: 33px;
+}
+.brands-tab ul li {
+    padding-right: 32px;
+}
+.brands-tab ul li a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(226, 235, 244, 0.6);
+}
+
+.add-brand h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 35px;
+    color: #F5F5F5;
+}
+.add-brand p.add-your {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #768598;
+    mix-blend-mode: normal;
+}
+.add-brand {
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+
+.brands-aplod {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ .uplode {
+    background: #2A2F35;
+    border-radius: 10px;
+    width: 500px;
+    height: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagediv {
+	float:left; 
+}
+.imagediv .showonhover { 
+	padding:20px;
+	opacity:0.9;
+	color:white;
+	width: 100%;
+	display:block;	
+	text-align:center;
+	cursor:pointer;
+}
+.imagediv span.textulod {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F5F5F5;
+    mix-blend-mode: normal;
+}
+.brands-aplod label.text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #768598;
+    mix-blend-mode: normal;
+    display: flex;
+    align-items: center;
+}
+.brands-aplod label.text span {
+    width: 30px;
+    height: 30px;
+    background: #2A2F35;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
