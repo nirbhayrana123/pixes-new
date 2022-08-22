@@ -313,10 +313,74 @@
     .ideal-ad-category {
         margin-bottom: 0px;
     }
-
     .login_pixis {
         max-width: 380px;
     }
+
+    /*===========dashboard=========*/
+
+    .header_main { 
+        padding: 10px 19px;
+    }
+ 
+    ul.monus {
+        padding-top: 75px;
+    }
+    .leftsidebar.tabgallermain ul.monus li {
+        margin-bottom: 13px; 
+        padding: 9px 0px 14px 0px;
+        width: 64px; 
+        min-height: 61px;
+    }
+    .leftsidebar.tabgallermain ul.monus li a { 
+        font-size: 11px;
+        line-height: 12px; 
+    }
+    .leftsidebar.tabgallermain ul.monus li a svg {
+        width: 22px;
+    }
+    .leftsidebar.tabgallermain ul.monus li.activechatbox { 
+        padding: 15px 0px 0px 0px;
+    }
+
+    .Createserch h3 { 
+        font-size: 22px; 
+        padding-bottom: 5px;
+    }
+    .content-right-container {
+        padding: 69px 20px 28px 100px;
+    }
+    .Searchinput .input-elevated {
+        font-size: 12px; 
+        background-position: 9px 10px; 
+        max-width: 400px;
+        background-size: 14px 13px;
+    }
+    .taballitem li a { 
+        font-size: 13px;
+        line-height: 1px; 
+    }
+    .taballitem a i { 
+        margin-right: 5px;
+    }
+    .taballitem a span {
+        font-size: 8px;  
+    }
+    ul.Recommended ll a h4 { 
+        font-size: 20px; 
+    }
+    ul.Recommended { 
+        padding-bottom: 0px;
+        padding-top: 2px;
+    }
+    .boxallimg_asacol {
+        height: 265px; 
+    }
+    
+
+
+
+
 }
 
 @media only screen and (max-width: 1199px) {
