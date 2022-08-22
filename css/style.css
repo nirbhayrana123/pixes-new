@@ -792,6 +792,8 @@ main{
     padding-left: 110px;
     padding-top: 100px;
     padding-bottom: 30px;
+    min-height: 100vh;
+    padding-right: 20px;
 }
 ul.monus {
     padding-top: 100px;
