@@ -83,7 +83,7 @@ a.invitepeaople {
     mix-blend-mode: normal;
 }
 .listitem {
-    max-width: 26%;
+    max-width: 28%;
     padding: 25px;
     border-radius: 10px;
     width: 100%;
@@ -245,6 +245,18 @@ color: #F5F5F5;
     }
     .titlehead {
         padding-bottom: 0px;
+    }
+    .colorspinners>span { 
+        height: 15px;
+    }
+    .colorspinners { 
+        bottom: -15px; 
+    }
+    .fontsselection h3 { 
+        font-size: 30px; 
+    }
+    .midlesec { 
+        margin-bottom: 15px;
     }
 }
 
