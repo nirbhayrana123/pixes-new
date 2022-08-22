@@ -1083,7 +1083,27 @@ ul.facebookVideo a.sec {
     }
     .panel {
         display: none;
-    }
+    }  
+ 
+/*===========Libraryi===Start=========*/ 
+.libraryimages img {
+    width: 36.42px;
+}
+a.Createalibrary {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #F5F5F5;
+    background: linear-gradient(115.11deg, #3E69FA 16.81%, #2DAEF5 78.52%);
+    border-radius: 5px;
+    padding: 17px;
+}
+.library_box {
+    background: #2A2F35;
+    border: 1px dashed #425367;
+    border-radius: 10px;
+    width: 286px;
+}
 
 
 
@@ -1092,4 +1112,21 @@ ul.facebookVideo a.sec {
 
 
 
-/*===========dashboard===End=========*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
