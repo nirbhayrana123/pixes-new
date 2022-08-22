@@ -18,86 +18,79 @@ $(document).ready(function() {
  });  
 //////////////////////fileuplod/////////////
 
-$(document).ready(function(e) {
-   $(".showonhover").click(function(){
-    $("#files-upload").trigger('click');
- });
-});
+// $(document).ready(function(e) {
+//    $(".showonhover").click(function(){
+//     $("#files-upload").trigger('click');
+//  });
+// });
 
 
-var input = document.querySelector('input[type=file]'); // see Example 4
+// var input = document.querySelector('input[type=file]'); // see Example 4
 
-input.onchange = function () {
-var file = input.files[0];
+// input.onchange = function () {
+// var file = input.files[0];
 
-drawOnCanvas(file);   // see Example 6
-displayAsImage(file); // see Example 7
-};
+// drawOnCanvas(file);   // see Example 6
+// displayAsImage(file); // see Example 7
+// };
 
-function drawOnCanvas(file) {
-var reader = new FileReader();
+// function drawOnCanvas(file) {
+// var reader = new FileReader();
 
-reader.onload = function (e) {
-var dataURL = e.target.result,
-   c = document.querySelector('canvas'), // see Example 4
-   ctx = c.getContext('2d'),
-   img = new Image();
+// reader.onload = function (e) {
+// var dataURL = e.target.result,
+//    c = document.querySelector('canvas'), // see Example 4
+//    ctx = c.getContext('2d'),
+//    img = new Image();
 
-img.onload = function() {
- c.width = img.width;
- c.height = img.height;
- ctx.drawImage(img, 0, 0);
-};
+// img.onload = function() {
+//  c.width = img.width;
+//  c.height = img.height;
+//  ctx.drawImage(img, 0, 0);
+// };
 
-img.src = dataURL;
-};
+// img.src = dataURL;
+// };
 
-reader.readAsDataURL(file);
-}
+// reader.readAsDataURL(file);
+// }
 
-function displayAsImage(file) {
-var imgURL = URL.createObjectURL(file),
- img = document.createElement('img');
+// function displayAsImage(file) {
+// var imgURL = URL.createObjectURL(file),
+//  img = document.createElement('img');
 
-img.onload = function() {
-URL.revokeObjectURL(imgURL);
-};
+// img.onload = function() {
+// URL.revokeObjectURL(imgURL);
+// };
 
-img.src = imgURL;
-document.body.appendChild(img);
-}
+// img.src = imgURL;
+// document.body.appendChild(img);
+// }
 
-$("#upfile1").click(function () {
-$("#file1").trigger('click');
-});
-$("#upfile2").click(function () {
-$("#file2").trigger('click');
-});
-$("#upfile3").click(function () {
-$("#file3").trigger('click');
-});
+// $("#upfile1").click(function () {
+// $("#file1").trigger('click');
+// });
+// $("#upfile2").click(function () {
+// $("#file2").trigger('click');
+// });
+// $("#upfile3").click(function () {
+// $("#file3").trigger('click');
+// });
 
 
 
-/////////////////////////////////////////
-// Color Picker
+// /////////////////////////////////////////
+// // Color Picker
+// $(document).ready(function() {
+// const body = document.querySelector(".uplode.upcoloradd");
+// const input = document.getElementById("colorPicker");
+// const colorCode = document.getElementById("colorCode");
 
-let input = document.querySelectorAll("#baseColor");
-let input2 = document.querySelectorAll("#secondaryColor");
-let output = document.querySelector(".baseColor p");
-let output2 = document.querySelector(".baseColor.secondary p");
+// setColor();
+// input.addEventListener("input", setColor);
 
-function handleUpdate() {
-  const suffix = this.dataset.sizing || "";
-  document.documentElement.style.setProperty(
-    `--${this.name}`,
-    this.value + suffix
-  );
-  console.log(this.value);
-  output.innerHTML = this.value;
-  output2.innerHTML = this.value;
-}
-
-input.forEach((input) => input.addEventListener("change", handleUpdate));
-input2.forEach((input2) => input2.addEventListener("change", handleUpdate));
-
+// function setColor() {
+// 	body.style.backgroundColor = input.value;
+// 	colorCode.innerHTML = input.value;
+// }
+// });
