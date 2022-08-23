@@ -21,8 +21,8 @@
         font-size: 14px; 
     }
     .uplode { 
-        width: 350px;
-        height: 150px; 
+        width: 100%;
+        min-height: 150px; 
     }
     .imagediv .showonhover { 
         padding: 10px; 
@@ -44,6 +44,7 @@
     }
     .colopickicon {
         padding: 10px; 
+        
     }
     .nextrightbut { 
         margin-top: 20px;
@@ -65,17 +66,14 @@
         width: 130px;
         height: 8px; 
     }
-    .persenteg-off {
-        width: 210px;
-        height: 300px;
+    .persenteg-off { 
+       min-height: 300px;
     }
-    .video-brand { 
-        width: 370px;
-        height: 300px;
+    .video-brand {  
+        min-height: 300px;
     }
     .yourbrand-theme {
-        height: 195px;
-        width: 210px;
+        min-height: 195px; 
     }
     .look-like p { 
         font-size: 12px; 
@@ -99,22 +97,38 @@
     .really-quote p { 
         font-size: 14px; 
     }
-    .really-quote {
-        width: 210px;
-        height: 300px;
+    .really-quote { 
+        min-height: 300px;
         padding: 50px 17px 10px;
     }
     .video-content img {
         width: 35px; 
     }
     .brands-aplod label.text span {
-        width: 25px;
-        height: 25px; 
+        width: 22px;
+        height: 22px; 
     }
     .add-brand {
         padding-top: 20px;
         padding-bottom: 1px;
     }
     
+    .img-persenteg { 
+        height: 175px; 
+    } 
+    .baseColor b { 
+        font-size: 40px; 
+    }  
+    .imagediv span.textulod, .imagediv span.Successfully { 
+        font-size: 14px; 
+    } 
+    .img-persenteg img { 
+        width: 25px; 
+    }
+    .butcolorpickmeneg a.butcolorpick {
+        padding: 5px 10px; 
+        font-size: 12px; 
+        margin-bottom: 15px;
+    }
     
 }

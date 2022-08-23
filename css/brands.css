@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0px;
+    padding: 8px 0px;
     border-bottom: 0.5px solid #425367;
 }
 .brands-tab ul {
@@ -86,29 +86,61 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+.baseColor b code#colorCode {
+    color: #273D8B!important;
+    font-weight: 900;
+}
+.baseColor {
+    text-align: center;
 }
  .uplode {
     background: #2A2F35;
     border-radius: 10px;
-    width: 500px;
-    height: 225px;
+    width: 100%;
+    min-height: 225px;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
+span.Successfully {
+    display: none;
+}
+.uplodefile {
+    width: 100%;
+    max-width: 32.2%;
+}
+
+
+
 .imagediv {
-	float:left; 
+	text-align: center;
 }
-.imagediv .showonhover { 
-	padding:20px;
-	opacity:0.9;
-	color:white;
-	width: 100%;
-	display:block;	
-	text-align:center;
-	cursor:pointer;
+.imagediv .showonhover {
+    padding: 10px;
+    opacity: 0.9;
+    color: white;
+    width: 100px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 auto;
 }
-.imagediv span.textulod {
+.imagediv.intro span.textulod {
+    display: none;
+}
+.imagediv.intro span.Successfully {
+    display: block;
+}
+.imagedi span.Successfully {
+    display: none;
+}
+.brands-aplod label.text i.fa.fa-check {
+    display: none;
+}
+.imagediv span.textulod, .imagediv span.Successfully {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
@@ -117,6 +149,10 @@
     color: #F5F5F5;
     mix-blend-mode: normal;
 }
+
+
+
+
 .brands-aplod label.text {
     font-family: 'Lato';
     font-style: normal;
@@ -182,6 +218,7 @@
 }
 .fontfamley-add {
     text-align: center;
+    cursor: pointer;
 }
 .nextrightbut {
     text-align: right;
@@ -189,13 +226,14 @@
 .nextrightbut {
     text-align: right;
     margin-top: 25px;
-    margin-bottom: 45px;
+    margin-bottom: 35px;
 }
 .persenteg-off {
     background: #2A2F35;
     border-radius: 10px;
-    width: 275px;
-    height: 335px;
+    max-width: 19%;
+    width: 100%;
+    min-height: 335px;
 }
 .img-persenteg {
     background-image: url(../images/img2.png);
@@ -211,7 +249,7 @@
     width: 35px;
     left: 10%;
 }
-.img-persenteg::after {
+/* .img-persenteg::after {
     position: absolute;
     content: "";
     background-color: #81818170;
@@ -219,7 +257,7 @@
     height: 100%;
     border-radius: 10px 5px 0px 0px;
     filter: blur(35px);
-}
+} */
 .persenteg-content a.perseteg-but {
     background: #BBC0C6;
     border-radius: 9px;
@@ -258,8 +296,9 @@
 .yourbrand-theme {
     background: #2A2F35;
     border-radius: 10px;
-    width: 275px;
-    height: 199px;
+     max-width: 19%;
+     width: 100%;
+    min-height: 199px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -287,9 +326,10 @@
 .video-brand {
     background: #2A2F35;
     border-radius: 10px;
-    width: 550px;
-    height: 335px;
+     max-width: 37%;
+    min-height: 335px;
     display: flex;
+    width: 100%;
     justify-content: space-between;
 }
 .brands-tab ul li a.active {
@@ -333,8 +373,9 @@
     margin-top: 35px;
 }
 .really-quote {
-    width: 275px;
-    height: 335px;
+     max-width: 19%;
+     width: 100%;
+    min-height: 335px;
     background-image: url(../images/img1.png);
     border-radius: 10px;
     background-repeat: no-repeat;
@@ -350,5 +391,87 @@
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    color: #111314;
+    color: #ffffff;
+}
+.imagediv.intro .showonhover {
+    display: none;
+}
+figure.uplodeimg {
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+
+
+.brands-logo.intro label.text b {
+    display: none;
+}
+.brands-logo.intro label.text i.fa.fa-check {
+    display: block;
+    color: #fff;
+}
+.brands-logo.intro label.text span {
+    background-color: #358df7;
+}
+
+.baseColor input#colorPicker {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.baseColor {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.baseColor b {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 50%;
+    font-size: 48px;
+    transform: translateY(-50%);
+}
+.brand-color.acvtive label.text span b{
+    display: none;
+
+}
+.brand-color.acvtive label.text span i.fa.fa-check {
+    display: block;
+    color: #fff;
+}
+.brand-color.acvtive label.text span{
+    background-color: #358df7;
+}
+.butcolorpickmeneg {
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+}
+.butcolorpickmeneg a.butcolorpick {
+    padding: 9px 22px;
+    display: block;
+    margin-bottom: 20px;
+    border: 1px solid #007bff;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+.butcolorpickmeneg a.butcolorpick:hover {
+    background: linear-gradient(115.11deg, #3E69FA 16.81%, #2DAEF5 78.52%);
+    color: #fff;
 }
