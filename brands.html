@@ -3,11 +3,10 @@
  <head><title>Let’s start to build your ads</title> 
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/bootstrap.min.css">   
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css" rel="stylesheet" type="text/css"> 
@@ -72,7 +71,7 @@
 						</figure>
 					</a></li>
 
-				<li class="active"><a href="#">
+				<li ><a href="#">
 						<figure><svg width="28" height="26" viewBox="0 0 28 26" fill="none"
 								xmlns="http://www.w3.org/2000/svg">
 								<path
@@ -98,7 +97,7 @@
 						Projects
 					</a></li>
 
-				<li><a href="#">
+				<li class="active"><a href="#">
 						<figure><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
 								xmlns="http://www.w3.org/2000/svg">
 								<path
@@ -176,7 +175,7 @@
 		
 	</div>
 </div>
-<div id="firts-brands" class="add-your-brands  panel " >
+<div id="firts-brands" class="add-your-brands panel" style="display: block;" >
 <div class="add-brand">
 <h4>Add your brand</h4>
 <p class="add-your">Easily add your logo, colors and fonts</p>
@@ -184,33 +183,39 @@
 </div>
 <div class="brands-aplod">
 
-<div class="brands-logo">
-	<label class="text"><span>1 </span>Logo</label>
+<div class="brands-logo uplodefile">
+	<label class="text"><span> <b>1</b> <i class="fa fa-check" aria-hidden="true"></i></span>Logo</label>
 	<div class="uplode">
 	<div align="left" class="imagediv">
 		 
 			   <span class="visibleimg"></span>
-			   <span class="showonhover"><img src="images/uplode.png"></span>
+			   <span class="showonhover" id="imguplode"><img src="images/uplode.png"></span>
+                 <figure class="uplodeimg"></figure>
 			   <span class="textulod">Upload your logo</span>
+			   <span class="Successfully">Uploaded Successfully</span>
 			   <input id="files-upload" type="file" name="" style="display: none;" />
 		   </div>
 		</div>
 </div>
 
-<div class="brand-color ">
-	<label class="text"><span>2 </span>Colors</label>
+<div class="brand-color uplodefile">
+	<label class="text"><span><b>2</b> <i class="fa fa-check" aria-hidden="true"></i> </span>Colors</label>
 	<div class="uplode upcoloradd">
 		<div class="baseColor"> 
-                    <!-- <input type="color" value="#e0ffee" id="colorPicker">
-              <b>Current color code: <code id="colorCode"></code></b>      -->
-			  <div class="colopickicon"><img src="images/pickcolor.png"></div>
+                    <input type="color" value="#e0ffee" id="colorPicker">
+              <b><code id="colorCode"></code></b>     
+			  <!-- <div class="colopickicon"><img src="images/pickcolor.png"></div>
 			  
-			  <p>Pick your color</p>
+			  <p>Pick your color</p> -->
 		  </div>
+		  <div class="butcolorpickmeneg">
+		  <a href="#" class="butcolorpick">Save</a>
+		  <a href="#" class="butcolorpick">Cancel</a>
+		</div>
 	</div>
 </div>
 
-<div class="brand-font">
+<div class="brand-font uplodefile ">
 <label class="text"><span>3 </span>Fonts</label>
 <div class="uplode">
 	<div class="fontfamley-add">
@@ -265,16 +270,8 @@
 </div> 
 	  </div>
 	</div>
-
 </main>
 		
-
-
- 
-      
-
-		</div>   
-
 
  
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
