@@ -1152,25 +1152,119 @@ h4.library_1tex {
 .Librar1 span i {
     background-color: #111314;
     color: white;
-    padding: 10px;
     border-radius: 50px;
     margin-left: 15px;
     margin-top: 15px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    text-align: center;
+    justify-content: center;
 }
 a.fa_plus_square i {
     position: absolute;
-    background-color: #000000;
-    font-size: 40px;
-    color: #B2B7BD;
+    background-color: #B2B7BD;
+    font-size: 30px;
+    color: #000000;
     border-radius: 80px;
-    top: 0;
-    right: 0;
+    top: -6px;
+    right: -16px;
+    width: 42px;
+    height: 42px;
+    align-items: center;
+    padding: 6px;
+    font-weight: 500;
 }
-
-
-
-
-
+/*=============Brands-3=============*/
+.Keep_yourasset {
+    width: 76%;
+    background-color: #2A2F35;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 108px 0px;
+}
+.library_contant h4 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 35px;
+    text-align: center;
+    color: #F5F5F5; 
+    margin-bottom: 17px;
+}
+.library_contant p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #768598;
+    padding-bottom: 60px;
+}
+.panelcontainer {
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a.Createalibrary.Pixisblack {
+    background: linear-gradient(115.11deg, #111314 16.81%, #111314 78.52%);
+    margin-left: 22px;
+}
+.Keep_yourasset.template {
+    background-color: transparent;
+}
+span.user-pluss i {
+    color: black;
+    background-color: #D9D9D9;
+    border-radius: 50px; 
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    text-align: center;
+    justify-content: center;
+    margin-right: 8px;
+}
+.brands_bottam_header h3 {
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 35px;
+    color: #E2EAF4;
+    display: flex;
+    align-items: center;
+}
+.brands_bottam_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2A2F35;
+    padding: 18px 30px;
+}
+span.user-pluss {
+    display: flex;
+    align-items: center;
+}
+span.user-pluss a {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #E2EBF4;
+}
+.panelcontainer.height {
+    min-height: 540px;
+}
+.brands h3 a i {
+    font-size: 17px;
+    padding-right: 10px;
+    align-items: center;
+    color: #fff;
+}
+.brands-tab.Assets { 
+    padding: 5px 0px; 
+    padding-top: 30px;
+}
 
 
 

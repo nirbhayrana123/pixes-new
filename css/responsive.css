@@ -376,7 +376,80 @@
     .boxallimg_asacol {
         height: 265px; 
     }
-    
+    .brands h3 { 
+        font-size: 25px;
+    }
+    .brands-tab ul li a { 
+        font-size: 14px; 
+    }
+    .selectBox select.form-control { 
+        font-size: 14px; 
+    } 
+    .panelcontainer {
+        min-height: 420px;
+        padding-top: 35px;
+    } 
+    .Keep_yourasset { 
+        padding: 90px 0px;
+    }
+    .library_contant h4 { 
+        font-size: 29px; 
+        margin-bottom: 15px;
+    }
+    .library_contant p { 
+        font-size: 15px; 
+        padding-bottom: 45px;
+    }
+    h4.library_1tex { 
+        font-size: 25px; 
+        padding-bottom: 60px;
+    }
+    .library_box {
+        width: 225px;
+        min-height: 225px;
+        margin-right: 35px;
+        max-height: 220px;
+    }
+    .libraryimages {
+        width: 90px;
+        height: 90px; 
+    }
+    a.Createalibrary { 
+        font-size: 13px; 
+        padding: 13px 20px;
+    }
+    .libraryimages img {
+        width: 28.42px; 
+    }
+    .Librar1 span i { 
+        width: 40px;
+        height: 40px; 
+        font-size: 18px; 
+    }
+    a.fa_plus_square i { 
+        font-size: 25px; 
+        width: 40px;
+        height: 40px; 
+        padding: 8px; 
+    }
+    .Librar1 a { 
+        font-size: 15px; 
+    }
+    span.user-pluss i { 
+        width: 40px;
+        height: 40px; 
+        font-size: 20px; 
+    }
+    span.user-pluss a { 
+        font-size: 15px; 
+    }
+    .panelcontainer.height {
+        min-height: 370px;
+    }
+
+
+
+
 
 
 
