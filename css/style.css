@@ -1086,8 +1086,14 @@ ul.facebookVideo a.sec {
     }  
  
 /*===========Libraryi===Start=========*/ 
+.librarymain {
+    padding-top: 45px;
+    display: flex;
+}
 .libraryimages img {
     width: 36.42px;
+    display: block;
+    margin: 0 auto;
 }
 a.Createalibrary {
     font-weight: 500;
@@ -1096,20 +1102,70 @@ a.Createalibrary {
     color: #F5F5F5;
     background: linear-gradient(115.11deg, #3E69FA 16.81%, #2DAEF5 78.52%);
     border-radius: 5px;
-    padding: 17px;
+    padding: 17px 30px;
 }
 .library_box {
     background: #2A2F35;
     border: 1px dashed #425367;
     border-radius: 10px;
     width: 286px;
+    min-height: 284px;
+    padding: 36px 30px;
+    text-align: center;
+    align-items: center;
+    margin-right: 45px;
 }
-
-
-
-
-
-
+.libraryimages {
+    width: 124px;
+    height: 124px;
+    background: #111314;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    border-radius: 100px;
+    position: relative;
+}
+.library_box.Librar1 {
+    padding: 0;
+}
+h4.library_1tex {
+    font-weight: 600;
+    font-size: 34px;
+    color: #F5F5F5;
+    text-align: left;
+    padding: 14px 23px;
+    padding-bottom: 100px;
+}
+.Librar1 {
+    border-top: 0.5px solid #111314;
+    text-align: left;
+    padding-top: 15px;
+}
+.Librar1 a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #F5F5F5;
+    margin-left: 15px;
+}
+.Librar1 span i {
+    background-color: #111314;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+a.fa_plus_square i {
+    position: absolute;
+    background-color: #000000;
+    font-size: 40px;
+    color: #B2B7BD;
+    border-radius: 80px;
+    top: 0;
+    right: 0;
+}
 
 
 
