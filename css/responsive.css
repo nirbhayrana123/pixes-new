@@ -1,5 +1,9 @@
 @media only screen and (max-width: 1499px) {
-
+    .library_box-img {
+        padding: 10px;
+        width: 160px;
+        margin: 0 auto;
+    }
     .itemlistcontent {
         padding: 10px 10px 1px 10px;
     }
@@ -87,8 +91,8 @@
     }
 
     .socialitem {
-        width: 105px;
-        height: 105px;
+        width: 100px;
+        height: 100px;
     }
 
     .dextop {
@@ -389,16 +393,16 @@
         min-height: 420px;
         padding-top: 35px;
     } 
-    .Keep_yourasset { 
-        padding: 90px 0px;
+    .Keep_yourasset {
+        padding: 60px 0px;
     }
     .library_contant h4 { 
-        font-size: 29px; 
+        font-size: 25px; 
         margin-bottom: 15px;
     }
-    .library_contant p { 
-        font-size: 15px; 
-        padding-bottom: 45px;
+    .library_contant p {
+        font-size: 15px;
+        padding-bottom: 30px;
     }
     h4.library_1tex { 
         font-size: 25px; 
@@ -427,10 +431,12 @@
         font-size: 18px; 
     }
     a.fa_plus_square i { 
-        font-size: 25px; 
-        width: 40px;
-        height: 40px; 
-        padding: 8px; 
+        font-size: 16px;
+        width: 30px;
+        height: 30px;
+        padding: 8px;
+        right: 0;
+        top: 0;
     }
     .Librar1 a { 
         font-size: 15px; 
@@ -448,12 +454,22 @@
     }
 
 
+    .modal__content h2 { 
+        font-size: 25px; 
+        line-height: 30px;
+    }
 
 
-
-
-
-
+    .modal__footer a { 
+        padding: 10px 15px 10px 15px; 
+    }
+    .modal__content { 
+        width: 35%; 
+        padding: 30px 35px; 
+    }
+    .taballitem { 
+        padding: 5px;
+    }
 }
 
 @media only screen and (max-width: 1199px) {
@@ -787,5 +803,20 @@
         width: 170px;
     }
 
-
+    .projectsimg {
+        top: 130px;
+    }
+    .Keep_yourasset.template.Would {
+        min-height: 200px;
+        padding: 19px 0px;
+        margin-top: 210px;
+    }
+    .projectsimg img {
+        width: 300px;
+    }
+    .Keep_yourasset.template.Would { 
+        min-height: auto; 
+        padding: 40px 0px; 
+        top: -70px;
+    }
 }

@@ -184,6 +184,7 @@ img {  max-width: 100%; width: 100%;}
     padding-left: 50px;
     padding-top: 50px;
 	    padding-right: 10px;
+        min-height: calc(100% - 140px );
 }
 .ideal-ad-category ul li {
     padding:0px 0px 0px 10px;
@@ -1141,13 +1142,22 @@ h4.library_1tex {
     border-top: 0.5px solid #111314;
     text-align: left;
     padding-top: 15px;
+    padding-left: 20px;
 }
 .Librar1 a {
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-    color: #F5F5F5;
-    margin-left: 15px;
+    color: #F5F5F5; 
+}
+.Librar1 span {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #696969;
+    mix-blend-mode: normal;
 }
 .Librar1 span i {
     background-color: #111314;
@@ -1166,7 +1176,7 @@ h4.library_1tex {
 a.fa_plus_square i {
     position: absolute;
     background-color: #B2B7BD;
-    font-size: 30px;
+    font-size: 25px;
     color: #000000;
     border-radius: 80px;
     top: -6px;
@@ -1176,6 +1186,8 @@ a.fa_plus_square i {
     align-items: center;
     padding: 6px;
     font-weight: 500;
+    justify-content: center;
+    display: flex;
 }
 /*=============Brands-3=============*/
 .Keep_yourasset {
@@ -1269,13 +1281,136 @@ span.user-pluss a {
 
 
 
+/*********************************modalcss*********************************/
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-linear-gradient(to right, #834D9B, #D04ED6);
+    background: linear-gradient(to right, #834D9B, #D04ED6);
+  }
+  .wrapper a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 3px;
+    text-transform: uppercase;
+    color: #585858;
+    font-family: 'Roboto', sans-serif;
+  }
+  .modal {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(77, 77, 77, .7);
+    transition: all .4s;
+  }
+  .modal:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  .modal__content {
+    position: relative;
+    width: 30%;
+    height: auto;
+    max-width: 100%;
+    padding: 30px 45px;
+    background: #F5F5F5;
+    border-radius: 10px;
+  }
+  .modal__footer {
+    text-align: right;
+    margin-top: 40px
+  }
+  .modal__close {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    color: #585858;
+    text-decoration: none;
+    background: #F5F5F5;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 9%);
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    font-size: 25px; 
+}
+
+.modal { 
+    background: rgba(17, 19, 20, 0.6);
+}
+  .modal__footer a {
+      background: aliceblue;
+      padding: 15px 20px 15px 20px;
+      text-decoration: none;
+      border: 2px solid #3E69FA;
+      border-radius: 5px;
+      font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    mix-blend-mode: normal;
+  }
+  .box input {
+      border: none;
+      border-bottom: 2px solid #3A7DF9;
+      line-height: 64px;
+      width: 100%;
+      background-color: transparent;
+      outline: none;
+  }
+  a.library {
+      background: linear-gradient(115.11deg, #3E69FA 16.81%, #2DAEF5 78.52%);
+      border-radius: 5px;
+      color: white;
+  }
+  .modal__content h2 {
+    border-bottom: 2px solid #AABFD7;
+    padding-bottom: 18px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 29px;
+    line-height: 35px;
+    color: #242424;
+  }
 
 
 
-
-
-
-
+  .Keep_yourasset.template.Would {
+    width: 50%;
+    min-height: 280px;
+    background-color: #2A2F35;
+    border-radius: 10px;
+    padding: 49px 0px;
+    position: relative; 
+    top: -95px;
+}
+.projectsimg img {
+    width: 450px;
+}
+.projectsimg {
+    text-align: center;
+}
+.library_box-img {
+    padding: 20px;
+    width: 200px;
+    margin: 0 auto;
+}
 
 
 
