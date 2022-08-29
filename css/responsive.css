@@ -186,10 +186,13 @@
     }
 
     .build_icanimg {
-        width: 220px;
+        width: 280px;
         padding: 25px 0px;
     }
-
+    .Keep_yourasset.template.Would { 
+        min-height: 225px; 
+        padding: 40px 0px; 
+    }
     .mainsubpage.tart_build {
         padding: 45px 0;
     }
@@ -336,8 +339,14 @@
         width: 64px; 
         min-height: 61px;
     }
+    .coppy-icon { 
+        top: 12px; 
+    }
+    .coppy-icon a { 
+        font-size: 12px;
+    }
     .leftsidebar.tabgallermain ul.monus li a { 
-        font-size: 11px;
+        font-size: 10px;
         line-height: 12px; 
     }
     .leftsidebar.tabgallermain ul.monus li a svg {
@@ -352,7 +361,7 @@
         padding-bottom: 5px;
     }
     .content-right-container {
-        padding: 80px 20px 28px 100px;
+        padding: 80px 20px 28px 120px;
     }
     .Searchinput .input-elevated {
         font-size: 12px; 
@@ -470,6 +479,345 @@
     .taballitem { 
         padding: 5px;
     }
+/*****************new*********************/
+.rotation-animation {
+    padding: 10px 15px; 
+}
+
+    .leftsidebar.tabgallermain { 
+        width: 85px;
+        padding-left: 8px; 
+    }
+    .middel { 
+        padding-right: 255px; 
+        padding-left: 80px;
+    }
+    /* .column8 { 
+        padding-left: 95px;
+        padding-top: 55px;
+        max-width: 77%; 
+    width: 100%;
+    } */
+    .right-sidebar {
+        padding-top: 55px;
+        padding-left: 40px;
+    }
+    h4.animation_hadeng { 
+        font-size: 14px; 
+        padding: 12px 18px; 
+    } 
+    ul.select_arrow {  
+        width: 200px;
+        padding: 8px 10px; 
+    } 
+    ul.select_arrow li.active { 
+        padding: 5px 5px; 
+    } 
+    ul.select_arrow li a {
+        font-size: 15px; 
+    }
+    .Orthographic ul a { 
+        font-size: 10px; 
+        padding: 8px;
+    }
+    .scercuil { 
+        right: 25px; 
+        width: 50px;
+    }
+    .Orthographic { 
+        right: 95px; 
+    }
+    .Orthographic ul { 
+        padding: 5px 0px;
+        padding-top: 0;
+    }
+    ul.select_arrow li a svg {
+        width: 13px;
+    }
+    ul.select_arrow li {
+        padding: 0;
+    }
+    .dekstopfullicon select.full-hd { 
+        padding: 5px; 
+        font-size: 12px; 
+    }
+    .leftsidebar.tabgallermain.photoshop li.active::after { 
+        right: -55px; 
+        top: 33px; 
+        width: 70px;
+        height: 15px; 
+    }
+    .centerdcls {
+        position: absolute;
+        width: 845px;
+    }
+    .placeholde a {
+        font-size: 12px;
+        line-height: 12px;
+        padding-top: 8px; 
+    }
+    .right-sidebar ul.right-menu li {
+        padding: 10px 10px;
+    }
+    .right-sidebar ul.right-menu li.active a {
+        padding: 5px;
+    }
+    .bottomtimeline ul li a {
+        font-size: 14px;
+    }
+    .bottomtimeline svg {
+        width: 14px;
+    }
+    .playtemlineicon ul li {
+        padding: 6px;
+    }
+    .timelineicon {
+        padding: 5px 10px;
+    }
+    .zoomslider a {
+        font-size: 12px;
+        color: #fff;
+    }
+    .bottomtimeline { 
+        height: 48px;
+    }
+    .right-sidebar ul.right-menu { 
+        width: 40px; 
+    }
+    .bottomtimeline.main {
+        height: 310px;
+    }
+    .modal-party {
+        padding: 8px 170px;
+    }
+    .object {
+        padding: 8px 100px;
+    }
+    .enviroinment {
+        padding: 8px 250px;
+    }
+    .timeLine {
+        height: 35px;
+    }
+    .icon-list {
+        max-width: 155px;
+        margin: 0;
+    }
+    .timelineimg {
+        height: 225px;
+        overflow: auto;
+    }
+    
+    .party {
+        padding: 3px 10px;
+        width: 375px;
+    }   
+    .party a {
+        font-size: 10px;
+        line-height: 15px;
+        display: flex;
+        align-items: center;
+    }
+    .party-object {
+        padding: 3px 10px;
+        width: 475px;
+    }
+    .Enviroinment-object a { 
+        font-size: 10px;
+        line-height: 15px; 
+    }
+    
+    
+    .Enviroinment-object {
+        width: 475px;
+        padding: 3px 10px;
+    }
+    span.bottom-bac {
+        height: 10px;
+    }
+   
+    /*********new**************/
+    .animatione_left_sidebar a.animation_hadeng {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+    .animatio-control ul { 
+        padding: 15px; 
+    }
+    .animatio-control ul li a.left-arr { 
+        padding: 5px 28px;
+        font-size: 12px; 
+    }
+    .renge-scall { 
+        padding: 15px; 
+    }
+    .renge-scall label { 
+        font-size: 10px; 
+        width: 55px; 
+    }
+    .renge-scall output#relationship-status-output { 
+        font-size: 9px; 
+        padding: 5px 10px;
+        margin: 0px 5px;
+    }
+    .rotation-animation label { 
+        font-size: 10px; 
+        width: 55px;
+    }
+    .rotation-animation ul p { 
+        font-size: 9px; 
+        padding: 6px 5px; 
+        width: 100%;
+        max-width: 100%;
+        align-items: center;
+    }
+    .rotation-animation ul p input[type="text"] {
+        font-size: 9px;
+    }
+    .rotation-animation ul li {
+        padding: 0px 5px;
+    }
+    .rotation-animation ul { 
+        width: 100%;
+        justify-content: space-between;
+    }
+    .rotation-icon a {
+        font-size: 15px;
+    }
+    .button {
+        position: relative;
+        top: 50%;
+        width: 185px;
+        height: 30px;
+    }
+    #button-10 .knobs:before, #button-10 .knobs:after, #button-10 .knobs span {
+        position: absolute;
+        top: 1px;
+        width: 92px;
+        height: 28px;
+        font-size: 9px;
+        text-align: center;
+        padding: 2px 4px;
+    }
+    
+    .party-object a { 
+        font-size: 10px;
+        line-height: 15px; 
+    }
+
+
+    .rotation-animation ul p span { 
+        font-size: 8px; 
+    }    
+    .reseatbut a { 
+        padding: 5px 18px; 
+        font-size: 12px; 
+    }
+    .animatio-control ul li:nth-child(2) a.left-arr {
+        padding: 5px 15px;
+    }
+    .placeholde i.fa.fa-check {
+        width: 16px;
+        height: 16px; 
+        right: 5px;
+        top: 5px; 
+        font-size: 9px;
+    }
+
+
+
+    .tabanimation li a {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 19px;
+        color: #869CB0;
+    }
+
+
+    ul.timers_buttan {
+        padding-top: 7px;
+        padding-bottom: 8px;
+    }
+    .buttantow .chekbox {
+        padding: 11px 0;
+    }
+    .Points_intervel table tbody tr th {
+        padding: 8px 28px;
+    }
+   
+    .buttantow a {
+        padding: 6px 19px;
+    }
+    .Points_intervel table td span p {
+        font-size: 11px;
+    }
+    .Points_intervel table td a {
+        font-size: 12px;
+        padding: 5px;
+    }
+    h4.animation_hadeng {
+        padding: 7px 24px;
+    }
+    .animation_ettingstabs ul li:first-child {
+        padding-right: 20px;
+    }
+    ul.timers_buttan li p { 
+        font-size: 11px; 
+    }
+    .buttantow .chekbox label {
+        font-size: 11px;
+        margin-bottom: 0;
+    }
+    .Points_intervel span img { 
+        margin-right: 5px;
+        padding: 3px;
+    }
+    .Points_intervel table td {
+        padding:8px 8px;
+    }
+    ul.timers_buttan li a { 
+        font-size: 13px; 
+        padding: 6px 18px;
+    }
+    .animation_ettingstabs {
+        padding: 10px 15px;
+    }
+    .Points_intervel table tbody tr th a { 
+        font-size: 13px; 
+    }
+    .Points_intervel span { 
+        align-items: center;
+    }
+    .plase-icon { 
+        padding: 5px 0px;
+    }
+    .timeline-slider {
+        padding-left: 155px;
+    }
+    .rotation-icon a svg {
+        width: 35px;
+    }
+    .ui-widget-content span.ui-slider-handle.ui-state-default.ui-corner-all {
+        width: 1px;
+        height: 467px;
+        border: 1px solid #4490FF;
+    }
+    .ui-widget-content span.ui-slider-handle.ui-state-default.ui-corner-all::after {
+    width: 10px;
+    height: 10px;
+    left: -5px;
+    top: 0px;
+}
+.img-list p {
+    font-size: 9px;
+    margin-bottom: 0px;
+}
+.img-list {
+    padding-top: 5px;
+}
+.timeSec {
+    font-size: 12px;
+}
 }
 
 @media only screen and (max-width: 1199px) {

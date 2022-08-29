@@ -33,4 +33,18 @@ $(document).ready(function() {
     
   });  
      $('.tabs li:first a').click();
+
+$("button.arrose-tenmile").click(function(){
+  $(".bottomtimeline").toggleClass("main");
+});
+
+
+     
 });  
+// $('input[type="range"]').rangeslider({
+//    polyfill: false
+//  });
+ 
+ $('#relationship-status-slider').on('change input', function() {
+   $('#relationship-status-output').text($(this).val());
+});

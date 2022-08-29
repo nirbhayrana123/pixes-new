@@ -38,6 +38,35 @@ $(document).ready(function(e) {
 
  });
 });
+$(document).ready(function() {
+   $('.tabanimation a').click(function(){
+      $('.panel').hide();
+      $('.tabanimation a.active').removeClass('active');
+      $(this).addClass('active');
+      var panel = $(this).attr('href');
+      $(panel).fadeIn(1000);
+      return false;
+   });
+      $('.tabanimation li:first a').click();
+
+
+
+      $.extend( $.ui.slider.prototype.options, { 
+         animate: 300
+     });
+      $(".slider")
+      .slider({
+          max: 20,
+
+      })
+      .slider("pips", {
+          rest: "label"
+          
+      });
+     
+
+
+ });
 
 
 var input = document.querySelector('input[type=file]'); // see Example 4
